@@ -17,10 +17,10 @@ tdiff:   Spike timing difference between presynaptic spike and last postsynaptic
          associated with positive tdiff.
 
 Example usage: 
->>>python code_for_spinemodel.py
-"Input gNMDAR (pS), no. of IP3R, input_type, input frequency (Hz), and no. of inputs: "
-65 30 stdp 5 5
-"Input no. of BAP per input and spike timing difference (ms): "
+>python2 code_for_spinemodel.py<br/>
+"Input gNMDAR (pS), no. of IP3R, input_type, input frequency (Hz), and no. of inputs: "<br/>
+65 30 stdp 5 5<br/>
+"Input no. of BAP per input and spike timing difference (ms): "<br/>
 2 10
 
 All other kinetic parameters and species concentrations are listed in the code, under the heading "Setting model parameters".
