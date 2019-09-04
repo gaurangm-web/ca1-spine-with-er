@@ -6,7 +6,7 @@ Created on Mon Dec  3 11:59:17 2018
 
 ##################################################################################################################################
 This program simulates calcium and plasticity dynamics in a physiologically plausible mathematical model of an ER-bearing CA1 
-dendritic spine head, as described in Mahajan & Nadkarni, bioRxiv 460568 (2018). The following python modules are imported: 
+dendritic spine head, as described in Mahajan & Nadkarni, bioRxiv/460568 (2018). The following python modules are imported: 
 numpy, scipy and matplotlib. The deterministic, coupled ODEs are numerically integrated using the "odeint" function in SciPy.
  
 The code prompts for the following inputs (inputs to be entered together in command line and separated by single spaces):
@@ -544,8 +544,8 @@ plt.legend(loc='best')
 plt.ylabel('Concentration ($\mu$M)',size=20)
 
 plt.subplot(3,2,3)
-plt.plot(t,[np.sum(sol0[k,34:42]) for k in range(len(t))],'b--',label='aCaM no stores',linewidth=2.2)
-plt.plot(t,[np.sum(sol[k,34:42]) for k in range(len(t))],'r--',label='aCaM with ER',linewidth=2.2)
+plt.plot(t,[np.sum(sol0[k,35:43]) for k in range(len(t))],'b--',label='aCaM no stores',linewidth=2.2)
+plt.plot(t,[np.sum(sol[k,35:43]) for k in range(len(t))],'r--',label='aCaM with ER',linewidth=2.2)
 plt.legend(loc='best')
 plt.ylabel('Concentration ($\mu$M)',size=20)
 
