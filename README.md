@@ -4,7 +4,7 @@ The program code_for_spinemodel.py simulates calcium and plasticity dynamics in 
 dendritic spine head, as described in Mahajan & Nadkarni, bioRxiv 460568 (2018). The following python modules are imported: 
 numpy, scipy and matplotlib. The deterministic, coupled ODEs are numerically integrated using the "odeint" function in SciPy.
  
-The code prompts for the following inputs (inputs to be entered together in command line and separated by single spaces):
+The code prompts the user for the following inputs (inputs to be entered together in command line and separated by single spaces):
 gNMDAR:       NMDAR conductance parameter (pS),
 n_ip3r:       Number of IP3 receptors,
 input_type:   Either 'rdp' (presynaptic spikes only) or 'stdp' (paired pre and postsynaptic spiking),
