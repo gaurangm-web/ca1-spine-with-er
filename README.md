@@ -1,7 +1,7 @@
 # ca1-spine-with-er
 
 The program code_for_spinemodel.py simulates calcium and plasticity dynamics in a physiologically plausible mathematical model of an ER-bearing CA1 
-dendritic spine head, as described in Mahajan & Nadkarni, bioRxiv 460568 (2018). The following python modules are imported: 
+dendritic spine head, as described in Mahajan & Nadkarni, J. Physiol. 597:13 (2019). The following python modules are imported: 
 numpy, scipy and matplotlib. The deterministic, coupled ODEs are numerically integrated using the "odeint" function in SciPy.
  
 The code prompts the user for the following inputs (inputs to be entered together in command line and separated by single spaces):
